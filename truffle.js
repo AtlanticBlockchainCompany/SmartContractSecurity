@@ -8,6 +8,12 @@ module.exports = {
       host: 'localhost',
       port: 8545,
       network_id: '*' // Match any network id
+    },
+    geth: {
+      host: '127.0.0.1',
+      port: 8546,
+      network_id: 1337,
+      gas: 60000
     }
   },
   solc: {

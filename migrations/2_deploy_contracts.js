@@ -1,5 +1,5 @@
-const SimpleStorage = artifacts.require('./contracts/')
+const Reentrancy = artifacts.require('./contracts/Reentrancy.sol')
 
 module.exports = function (deployer) {
-  deployer.deploy(SimpleStorage)
+  deployer.deploy(Reentrancy)
 }
